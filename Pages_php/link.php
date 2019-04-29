@@ -27,6 +27,7 @@
 			</header>
 
 		<section id="banniere">
+            <p>lorem</p>
 
 			<h1>La balise &#60;link&#62;</h1>
 
