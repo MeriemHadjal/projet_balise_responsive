@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+	<head>
+
+		<!-- Meta principales -->
+
+		<title>Les balises &#60;h1&#62; &#60;h2&#62; &#60;h3&#62;</title>
+		<meta charset="utf-8">
+		<meta name="keywords" content="balises &#60;h1&#62; &#60;h2&#62; &#60;h3&#62; definition">
+		<meta name="description" content="Définitions des balises  &#60;h1&#62; &#60;h2&#62; &#60;h3&#62;">
+		<meta name="author" content="Meriem, Hirvin et Igal">
+		<link rel="icon"  href="../Images/image_onglet.png">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+	<header>
+
+<!-- Barre de navigation -->
+
+<?php include("menu.php"); ?>
+
+</header>
+
+		<section id="banniere">
+			
+			<h1>Les balises  &#60;h1&#62; &#60;h2&#62; &#60;h3&#62;</h1>
+
+			<p>Sur cette page on va découvrir les balises  &#60;h1&#62; &#60;h2&#62; &#60;h3&#62; et leurs utilités.</p>
+		</section>
+
+		<main>
+
+			
+			<!-- CONTENU PAGE -->
+
+			<p>
+				
+				Les éléments HTML  &#60;h1&#62; &#60;h2&#62; &#60;h3&#62; permettent l'insertion d'un gros titres, et de sous-titres dans le contenu.<br>
+	            
+			</p>
+
+	            Il ne peut y avoir qu'un seul gros titre repésenté par la balise &#60;h1&#62;.
+	        
+			<p>
+				Les éléments HTML &#60;h2&#62; représente le plus gros sous-titre, &#60;h3&#62; étant le plus petit des 3.<br>
+			</p>
+
+	        <p>
+	            Tous s'insert dans la balise  &#60;body&#62;<br>
+	        
+	        </p>
+	        
+	        <h2> EXEMPLE </h2>
+	        
+	         <img src="../Images/h1h2h3.png" alt="photo des balises  &#60;h1&#62; &#60;h2&#62; &#60;h3&#62;"><br>
+	    </main>
+	
+		<!-- PIED DE PAGE -->
+		
+        <section id="pied_de_page">
+        
+        	<?php include("footer.php"); ?>
+		</section>
+		
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+</html>
