@@ -34,6 +34,7 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
+        <p>test</p>
         <p>
             Salut les boulets ! <br> Alors on se sent seul devant son écran ? Pas de stress on vous a préparé des tutos sympas pour vous aider à acquérir quelques bases en html ! <br> So, let's go ! <br>
         </p>
